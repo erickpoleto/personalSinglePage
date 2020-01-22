@@ -1,0 +1,129 @@
+@media (min-width: 0px) {
+     /*head*/
+    header{
+        padding: 100px 0 10px 0;
+        }
+
+    .titulo__principal{
+        font-size: 2.5rem;
+        }
+    
+    .caixa__principal__type {
+        margin: 100px auto;
+    
+    }
+    .typewriter {
+        font-size: .9rem;    
+    }
+    .nav__header {
+        
+        margin-top: 100px;
+        
+    } 
+     .nav__header___ul {
+         flex-wrap: wrap;
+         align-items: center;
+         height: 200px;
+    }
+    
+    .nav__header___ul li{
+         margin: 10px 0;
+         display:flex;
+         font-size: .9rem;
+         margin-left: 10px;
+         
+       }
+    
+    
+    /*sobre mim*/
+    
+    .img__eu {
+	
+        width: 150px;
+        height: 150px;
+    }
+    
+    .section__sobreMim {
+        
+    }
+    
+    .caixa__sobreMim{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .texto__quemSou {
+        width: 100%;
+        align-items: center;
+        padding: 30px 0 0 0;
+    }
+    
+    .texto__quemSou h2 {
+	      font-size: 2em;
+        border-left: 5px solid red;
+        border-radius: 10px;
+    }
+    
+    .texto__quemSou p {
+        margin: 10px 0 0 0;
+        font-size: 1.1rem;
+        font-weight: 100;
+        width: 80%;
+    }
+    
+    /*estudos*/
+    
+    .section__estudos h2{
+        font-size: 2em;
+    }
+    
+    .caixa__estudos{
+        flex-direction: column;
+        
+    }
+    
+    .caixa__estudos___unitario{
+        margin: 20px 0 0 0;
+        width: 70%;
+        
+        
+    }
+ 
+    
+    /*conhecimeto*/
+    .caixa__conhecimento {
+        width: 100%;
+        margin-left: 10px;
+    }
+    
+    .nav__conhecimento{
+        font-size: .9rem;
+        justify-content: center;
+        flex-wrap: nowrap;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .nav__conhecimento_title{
+        font-size: 1.3em;
+    }
+    .section__subTitulo {
+	      width: 100%;
+        font-size: 2em;
+        
+    }
+    
+    .caixa__contato{
+        flex-direction: column;
+        
+    }
+    
+    .whats a{
+        bottom:30px;
+        right: 10px;
+        width: 50px;
+        height: 50px;
+        
+    }
+    
+    

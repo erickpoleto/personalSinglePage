@@ -1,0 +1,562 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {
+    background: url(../img/Artboard%201.jpg) center / cover no-repeat fixed;
+    padding: 150px 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.caixa {
+    margin: 0 auto;
+    background: #fafafa;
+}
+
+.titulo__principal {
+    font-size: 60px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+
+b {
+    color: red;
+}
+
+.titulo__principal:before {
+    content: "{";
+    color: mediumblue;
+
+}
+
+.titulo__principal:after {
+    content: "}";
+    color: mediumblue;
+}
+
+.caixa__principal__type {
+
+    margin: 220px auto;
+    display: flex;
+    justify-content: center;
+    /* align-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 14%; */
+}
+
+.typewriter {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 40px;
+    /* overflow: hidden; Ensures the content is not revealed until the animation
+    border-right: 2px solid white; The typwriter cursor
+    white-space: pre; Keeps the content on a single line
+    margin: 0 auto; Gives that scrolling effect as the typing happens
+     letter-spacing: 15em; Adjust as needed
+    animation: 
+      typing 1.5s steps(500, end),
+      blink-caret .75s step-end infinite;  */
+}
+
+
+.nav__header {
+    margin: 220px auto;
+    
+}
+
+.nav__header___ul {
+	  display: flex;
+    justify-content: center;
+}
+
+.nav__header___ul li {
+    font-size: 20px;
+    color: #fefefe;
+    margin-left: 20px;
+}
+
+.nav__header___ul a {
+    text-decoration: none;
+    color: white;
+    border: 3px solid #05097d;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: inset 0 0 30px black;
+    transition: .5s all;
+    text-align: center;
+    width: 100px;
+    
+}
+
+.nav__header___ul a:hover{
+    padding: 25px;
+    background: #5D6D7E;
+}
+
+/* <main> */
+
+.main {
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 20px;
+}
+
+/*sobre mim*/
+
+.img__eu {
+    width: 300px;
+    height: 300px;
+	  border: 10px solid darkred;
+    border-radius: 50%;
+}
+
+.section__sobreMim {
+    padding: 100px 0;
+    background: #fafafa;
+}
+
+.caixa__sobreMim {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.texto__quemSou{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20%;
+    padding: 50px 5%;
+    
+}
+
+.texto__quemSou h2 {
+	  border-color: darkred;
+}
+
+
+.texto__quemSou p{
+    margin: 10px 0 0 10px;
+    font-size: 1.4rem;
+    text-indent: 30px;
+    font-weight: 600;
+    width: 90% ;
+    color: dimgrey;
+}
+
+
+.section__estudos {
+    background: #fafafa;
+	  padding: 100px 0;
+}
+.section__estudos h2{
+    margin: 0 auto 60px auto;
+    width: 4em;
+}
+
+.caixa__estudos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa__estudos___unitario{
+    margin: 0 30px;
+    padding: 50px;
+    background: linear-gradient(orange , #ffffff 30%);
+    border-radius: 5px;
+}
+
+.imgs {
+	  width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.caixa__estudos___unitario h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: dimgrey;
+    text-align: center;
+}
+
+.caixa__estudos___unitario p, .caixa__estudos___unitario h3, .caixa__estudos___unitario h4 {
+    margin: 10px auto 0 auto;
+    font-size: 1.1rem;
+}
+
+.caixa__estudos___unitario h4{
+    font-weight: bold;
+    text-align: center;
+}
+
+.texto__caixas{
+    font-weight: 300;
+    font-size: 1.1rem;
+    overflow: hidden;
+    height: 70px;
+}
+
+.expandir{
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    background: grey;
+    border-radius: 30px;
+    padding: 5px;
+    width: 50%;
+    margin: 10px auto auto auto;
+    overflow: visible;
+    
+}
+
+/*experiencias*/
+
+.section__experiencias h2 {
+	   margin: 0 auto 60px auto;
+     width: 7em;
+     border-color: darkblue;
+}
+
+.caixa__experiencias___unitario{
+    background: linear-gradient(darkblue , #ffffff 30%);
+}
+
+.img__ministerio{
+    width:  80px;
+    height: 80px;
+    padding: 20px;
+}
+
+.img__sulwork{
+    width: 150px;
+    height: 100px;
+}
+
+/*section conhecimento*/
+.section__conhecimento {
+    padding: 200px 0;/* 
+    background: linear-gradient(#080516 50%, #0377e2, #fafafa); */
+    background: url(../img/Artboard%201.jpg) center / cover no-repeat fixed;
+    color: white;
+
+}
+
+.caixa__conhecimento {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.section__subTitulo{
+    font-size: 3em;
+    border-left: 4px solid orange;
+    border-radius: 10px;
+}
+
+.section__subTitulo___conhec {
+    
+    border-left: 4px solid white;
+    width: 8em;
+    margin: 0 auto 60px auto;
+}
+
+.nav__conhecimento {
+    margin-top: 30px auto;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+   
+
+}
+
+.nav__conhecimento_title {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin: .9em 0;
+    padding-left: .3em;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    color: white;
+
+}
+
+/* colors*/
+
+/* .nav__conhecimento___backend:first-child:first-letter {
+    color: darkmagenta;
+}
+
+.nav__conhecimento___frontend {
+    color: chocolate;
+}
+
+.nav__conhecimento___design {
+    color: crimson;
+}
+
+.nav__conhecimento___banco {
+    color: chartreuse;
+} */
+
+/*logos tamanho*/
+
+
+.nav__li {
+    display: flex;
+    align-items: space-between;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    font-size: 1em;
+    padding: 5px;
+    border-bottom: 2px dashed grey;
+
+}
+
+.nav__li:before {
+	  content: '';
+    width: 20px;
+	  height: 20px;
+    margin: 10px 0 0 10px;
+}
+
+.nav__li:nth-child(2n):before {
+	  background: url(../img/logo/143670.png);
+}
+
+.nav__li:nth-child(2n+1):before {
+	  background: url(../img/logo/143670.png);
+}
+
+.nav__li p {
+
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.nav__li {
+
+}
+
+/*section contato*/
+
+.section__contato {
+	  padding: 150px 0;
+    background: #fafafa;
+}
+
+.section__subtitulo___contat {
+    border-left: 5px solid black;
+    border-radius: 10px;
+    font-size: 2em;
+}
+
+.caixa__contato{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa__email {
+	  background: linear-gradient(#006cc6, white 30%);
+    text-align: center;
+}
+
+
+
+.form__email {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+
+
+.form__email label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+     
+}
+
+.form__email label input, .form__email textarea{
+    padding: 5px 10px; 
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: 1s all;
+    
+}
+.form__email label input:hover, .form__email textarea:hover{
+    padding: 10px 15px; 
+}
+
+.enviar{
+	  margin-top: 20px;
+    padding: 15px;
+    background: linear-gradient(white, #006cc6);
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: 'Roboto Mono', monospace;
+    cursor: pointer;
+    transition: 1s all;
+    color: aliceblue;
+}
+
+.enviar:hover {
+	  padding: 30px;
+}
+
+.caixa__whats{
+    background: linear-gradient(#2d8b03, white 30%);
+}
+   
+
+
+.caixa__whats img{
+    width: 100px;
+    height: 100px;
+    padding: 60px; 
+    transition: 1s all;
+}
+
+
+.caixa__whats img:hover{
+    width: 200px;
+    height: 200px;
+}
+
+.caixa__whats p{
+	  font-weight: bold;
+    font-size: 20px;
+}
+
+.whats__sub{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.estilo-do-botao p{
+	  border: 2px solid green;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background: green;
+    transition: 1s all;
+}
+
+.estilo-do-botao a{
+    text-decoration: none;
+}
+
+.estilo-do-botao p:hover{
+	  padding: 10px;
+}
+
+.whats a{
+    position: fixed;
+    bottom: 100px;
+    right: 150px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #73AD21;
+    border-radius: 50%;
+    background: url(../img/logo/whats.png) center / cover no-repeat;
+    
+    transition: .5s all;
+}
+
+.whats a:hover {
+	padding: 10px;
+
+}
+
+footer {
+    padding: 50px;
+    text-align: center;
+    background: url(../img/bg.jpg);
+    color: aliceblue;
+
+}
+
+footer img{
+    background: white;
+    border-radius: 10px;
+}
+
+
+footer p{
+    margin-top: 20px;
+}
+
+
+.desabilitado{
+    background: grey;
+}
+
+.desabilitado:hover {
+	  padding: 0;
+}
+/*
+@media (min-width: 0px){
+    header{
+        padding: 100px 0 10px 0;
+    }
+    .titulo__principal{
+        font-size: 2.5rem;
+    }
+    .caixa__principal__type {
+        margin: 100px auto;
+        
+    }
+    .typewriter {
+        font-size: .9rem;
+    }
+    .nav__header {
+        margin-top: 100px;
+    }
+    .nav__header___ul {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .nav__header___ul li {
+        margin-left: 0;
+        display:flex;
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+    
+    .section__conhecimento {
+        padding: auto 0;
+    }
+    .caixa__conhecimento {
+        width: 100%;
+        margin-left: 10px;
+    }
+    .nav__conhecimento{
+        font-size: .9rem;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        height: 100%;
+        width: 100%;
+    }
+    .nav__conhecimento___ul{
+        
+    }
+}  
+*/
